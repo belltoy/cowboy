@@ -6,5 +6,14 @@
 	{applications, [kernel,stdlib,crypto,cowlib,ranch]},
 	{optional_applications, []},
 	{mod, {cowboy_app, []}},
-	{env, []}
+	{env, []},
+
+
+    {licenses, [<<"ISC">>]},
+	{links, [
+        {"User guide", "https://ninenines.eu/docs/en/cowboy/2.12/guide/"},
+        {"Function reference", "https://ninenines.eu/docs/en/cowboy/2.12/manual/"},
+        {"GitHub", "https://github.com/ninenines/cowboy"},
+        {"Sponsor", "https://github.com/sponsors/essen"}
+	]}
 ]}.
