@@ -9,11 +9,13 @@
 	{env, []},
 
 
+    {pkg_name, "my_cowboy"},
     {licenses, [<<"ISC">>]},
 	{links, [
         {"User guide", "https://ninenines.eu/docs/en/cowboy/2.12/guide/"},
         {"Function reference", "https://ninenines.eu/docs/en/cowboy/2.12/manual/"},
         {"GitHub", "https://github.com/ninenines/cowboy"},
-        {"Sponsor", "https://github.com/sponsors/essen"}
+        {"Sponsor", "https://github.com/sponsors/essen"},
+        {"My Fork", "https://github.com/belltoy/cowboy"}
 	]}
 ]}.
